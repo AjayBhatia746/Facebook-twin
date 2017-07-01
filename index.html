@@ -68,9 +68,9 @@
    <li> <a href="#"  class="apple"><img src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/19396827_1930646420525859_1919365978567706415_n.jpg?oh=d43cb0e0b3d3f303a7c2b03a35639e07&oe=59D8C74B" height="24px" width="24px"></a></li>
     <li><a href="#"  class="apple">Finger Tuter</a></li>
 	<li><a href="#"  class="apple">Home</a></li>
-    <li><a href="#" class="apple"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>
-    <li><a href="#" class="apple"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
-    <li><a href="#" class="apple"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+    <li><a href="#" class="apple"><span class="glyphicon glyphicon-user" aria-hidden="true"></span><span class="badge">18</span></a></li>
+    <li><a href="#" class="apple"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><span class="badge">2</span></a></li>
+    <li><a href="#" class="apple"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span><span class="badge">1</span></a></li>
     <li><a href="#" class="apple">Help</a></li>
         <!---------------------------------dropdownbutton---------------------------------------------------------------->
 		<li class="dropdown">
@@ -113,7 +113,7 @@
 			<ul class="nav nav-pills nav-stacked">  
 	<li role="presentation"><a href="#"><img src="http://www.mens-hairstyle.com/wp-content/uploads/2016/09/Guys-Haircuts.jpg" height="20px" width="20px">Finger Tuter</a></li>
           <li role="presentation"><a href="#"><img src="http://financialmoneytips.com/wp-content/uploads/-1366218235-524543249.png" height="20px" width="20px">News Feed</a></li>
-          <li role="presentation"><a href="#"><img src="https://cdn.pixabay.com/photo/2016/07/03/18/35/messenger-1495274_960_720.png" height="20px" width="20px">Messenger</a></li>
+          <li role="presentation"><a href="#"><img src="https://cdn.pixabay.com/photo/2016/07/03/18/35/messenger-1495274_960_720.png" height="20px" width="20px">Messenger<span class="badge">2</span></a></li>
         </ul>
 	<!----------------------------------------------menu(shortcut)---------------------------------->
 	<ul class="nav nav-pills nav-stacked"> 
@@ -266,8 +266,41 @@
 			<!--------body----------->
 			
 			<div class="panel-body">
-			<div><img src="https://s-media-cache-ak0.pinimg.com/736x/d0/6d/f8/d06df88a0f6b467cb160a0e997089666.jpg"> 
-			</div>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="http://i.dailymail.co.uk/i/pix/2016/01/01/08/2F99007C00000578-0-image-a-4_1451636469962.jpg" alt="Los Angeles">
+    </div>
+
+    <div class="item">
+      <img src="http://mediaassets.tmj4.com/photo/2016/11/18/deer-hunting_1479498961751_50015127_ver1.0_640_480.jpg" alt="Chicago">
+    </div>
+
+    <div class="item">
+      <img src="http://cdn2.arkive.org/media/E9/E9CEA4C8-C1CF-4507-AF14-57444405ACFE/Presentation.Large/African-lion-killing-hyaena.jpg" alt="New York">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
 			<div>
 			<span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
         			<span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Comments</span>
